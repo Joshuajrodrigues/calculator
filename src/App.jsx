@@ -137,7 +137,7 @@ function App() {
   return (
     <div className='calculator-grid'>
       <div className='output'>
-        <div className="previuos-operand">
+        <div className="previous-operand">
         {formatOperand(previousOperand)} {operation}
         </div>
         <div className="current-operand">
